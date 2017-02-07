@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SVE Team</string>
+    <string name="title">The 2.Team of SV Eintracht Hohkeppel</string>
+    <string name="contentText">The News</string>
+    <string name="headerContent">The Header Content</string>
+    <string name="news">News</string>
+    <string name="table">Table</string>
+    <string name="info">Info</string>
+</resources>
