@@ -1,9 +1,19 @@
 <resources>
     <string name="app_name">SVE Team</string>
     <string name="title">The 2.Team of SV Eintracht Hohkeppel</string>
-    <string name="contentText">The News</string>
-    <string name="headerContent">The Header Content</string>
+
+    <!--ContentArea-->
+    <string name="contentNews">"This season we are trying to win the league. It is winter break now and we have the lead at the moment. However, the season is not over yet."</string>
+    <string name="contentInfo">Info</string>
+
+    <!--Subtitle-->
+    <string name="headerContent">Plans for Season 2016/17</string>
+    <string name="headerContentTable">Table</string>
+    <string name="headerContentInfo">Information</string>
+
+    <!--ButtonText-->
     <string name="news">News</string>
     <string name="table">Table</string>
     <string name="info">Info</string>
+
 </resources>
