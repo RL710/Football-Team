@@ -4,10 +4,10 @@
 
     <!--ContentArea-->
     <string name="contentNews">"This season we are trying to win the league. It is winter break now and we have the lead at the moment. However, the season is not over yet."</string>
-    <string name="contentInfo">Info</string>
+    <string name="contentInfo">Address:\n   Schoenenborn 33 \n   51789 Lindlar \n    Germany</string>
 
     <!--Subtitle-->
-    <string name="headerContent">Plans for Season 2016/17</string>
+    <string name="headerContentNews">Plans for Season 2016/17</string>
     <string name="headerContentTable">Table</string>
     <string name="headerContentInfo">Information</string>
 

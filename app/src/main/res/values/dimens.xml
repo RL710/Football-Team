@@ -3,6 +3,9 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="StandardMargin">16dp</dimen>
+
+    <!--TextSizes-->
+    <dimen name="TextSizeContent">16sp</dimen>
     <dimen name="TextSizeHeader2">18sp</dimen>
     <dimen name="TextSizeHeader">24sp</dimen>
 </resources>

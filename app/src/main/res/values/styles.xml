@@ -14,6 +14,7 @@
         <item name="android:background">@color/backGround</item>
     </style>
 
+    <!--TextView Styles-->
     <style name="header">
         <item name="android:layout_marginTop">@dimen/StandardMargin</item>
         <item name="android:textSize">@dimen/TextSizeHeader</item>
@@ -21,7 +22,7 @@
     </style>
     <style name="header2">
         <item name="android:textSize">@dimen/TextSizeHeader2</item>
-        <item name="android:text">@string/headerContent</item>
+        <item name="android:text">@string/headerContentNews</item>
         <item name="android:layout_marginTop">4dp</item>
     </style>
     <style name="content">
@@ -29,21 +30,21 @@
         <item name="android:background">@color/contentBackground</item>
         <item name="android:padding">8dp</item>
         <item name="android:visibility">visible</item>
+        <item name="android:textSize">@dimen/TextSizeContent</item>
     </style>
+
+
     <style name="buttonContentSwitcher">
         <item name="android:layout_weight">1</item>
+        <item name="android:layout_alignParentTop">true</item>
 
     </style>
 
 <!--Pictures-->
-    <style name="lablePicture">
-        <item name="android:src">@drawable/zweite</item>
+    <style name="pictures">
         <item name="android:scaleType">centerCrop</item>
         <item name="android:adjustViewBounds">true</item>
     </style>
-    <style name="tablePicture">
-        <item name="android:src">@drawable/table</item>
-        <item name="android:scaleType">centerCrop</item>
-    </style>
+
 
 </resources>

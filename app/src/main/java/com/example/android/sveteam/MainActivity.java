@@ -41,11 +41,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void changeToNews(View view) {
-        scalePic();
-        scaleLayout();
+//        scalePic();
+//        scaleLayout();
         makeNewsVisible(true);
         makeInfoVisible(false);
         makeTableVisible(false);
+
+        TextView textView = (TextView) findViewById(R.id.textview_header2);
+        textView.setText(getString(R.string.headerContentNews));
 
     }
 
@@ -53,12 +56,16 @@ public class MainActivity extends AppCompatActivity {
         makeTableVisible(true);
         makeInfoVisible(false);
         makeNewsVisible(false);
+        TextView textView = (TextView) findViewById(R.id.textview_header2);
+        textView.setText(getString(R.string.headerContentTable));
     }
 
     public void changeToInfo(View view) {
         makeNewsVisible(false);
         makeInfoVisible(true);
         makeTableVisible(false);
+        TextView textView = (TextView) findViewById(R.id.textview_header2);
+        textView.setText(getString(R.string.headerContentInfo));
     }
 
     //visibility of content
